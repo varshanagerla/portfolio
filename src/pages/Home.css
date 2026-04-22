@@ -1,0 +1,125 @@
+/* GLOBAL */
+.container {
+  font-family: 'Poppins', sans-serif;
+  padding: 30px;
+  min-height: 100vh;
+
+  /* EXACT STYLE BACKGROUND */
+  background: linear-gradient(135deg, #ede9fe, #c4b5fd);
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px 25px;
+  border-radius: 16px;
+
+  backdrop-filter: blur(10px);
+  margin-bottom: 50px;
+}
+
+.logo {
+  font-weight: 700;
+  color: #4c1d95;
+}
+
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #6d28d9;
+  font-weight: 500;
+}
+
+.nav-links .active {
+  border-bottom: 2px solid #7c3aed;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 60px;
+}
+
+/* PROFILE IMAGE */
+.hero-left img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  padding: 6px;
+  background: linear-gradient(135deg, #7c3aed, #c084fc);
+  box-shadow: 0 0 30px rgba(124, 58, 237, 0.4);
+}
+
+/* TEXT */
+.hero-right h1 {
+  font-size: 42px;
+  color: #312e81;
+  margin: 10px 0;
+}
+
+.hero-right h2 {
+  color: #7c3aed;
+}
+
+.hero-right p {
+  max-width: 420px;
+  color: #444;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  width: 320px;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+
+  /* LEFT LINE */
+  border-left: 6px solid #7c3aed;
+}
+
+/* TAGS */
+.tags span {
+  background: #ede9fe;
+  padding: 8px 14px;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+/* DETAILS */
+.details {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  width: 600px;
+  margin: auto;
+
+  border-left: 6px solid #7c3aed;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
